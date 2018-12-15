@@ -1,0 +1,4 @@
+- on upgrade: (or when comparing two commits)
+  - warn about minified code in transient dependencies
+  - generate a git diff for all changes to `node_modules`
+  - generate an overview of changed packages and their size/dependencies

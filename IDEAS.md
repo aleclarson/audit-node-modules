@@ -2,3 +2,6 @@
   - warn about minified code in transient dependencies
   - generate a git diff for all changes to `node_modules`
   - generate an overview of changed packages and their size/dependencies
+  - warn when building a dependency manually produces a different bundle than     what is published on npm
+  - warn when a package has an incompatible license
+  - warn when test files were published to npm
